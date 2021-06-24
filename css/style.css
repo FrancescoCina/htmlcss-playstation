@@ -22,6 +22,15 @@
 }
 
 
+
+/* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
+[class*="col"]{
+    background-color: black;  
+    height: 50px;
+    border: 2px solid #fff;
+}
+/* ------------------ */
+
 /* HEADER */
 
 header{
@@ -37,6 +46,7 @@ header{
 section{
     height:400px;
 }
+
 
 /* FOOTER */
 footer{
