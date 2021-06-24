@@ -21,10 +21,24 @@
     background-color: fuchsia;
 }
 
+.bg-black{
+    background-color: #000;
+}
+
+.bg-darkgrey{
+    background-color: #363636;
+}
+
+
+.black{
+    color:#000;
+}
+
+
 
 
 /* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
-[class*="col"]{
+main [class*="col"]{
     background-color: black;  
     height: 50px;
     border: 2px solid #fff;
@@ -34,11 +48,30 @@
 /* HEADER */
 
 header{
-    height: 100px;
+    height: 300px;
     border-bottom: 2px solid #000;
 }
 
-[class*="container"]{
+.top-header{
+    height: 25px;
+}
+
+.bottom-header{
+    height: 150px;
+}
+
+
+.logo{
+    height: 100%;
+} 
+
+
+.logo img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+main [class*="container"]{
     height: 100%;
 }
 
