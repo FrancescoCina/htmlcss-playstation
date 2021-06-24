@@ -1,0 +1,44 @@
+/* COLORS */
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-fuchsia{
+    background-color: fuchsia;
+}
+
+
+/* HEADER */
+
+header{
+    height: 100px;
+    border-bottom: 2px solid #000;
+}
+
+[class*="container"]{
+    height: 100%;
+}
+
+/* MAIN */
+section{
+    height:400px;
+}
+
+/* FOOTER */
+footer{
+    height: 200px;
+}
