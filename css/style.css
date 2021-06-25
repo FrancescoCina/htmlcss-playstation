@@ -8,7 +8,6 @@
     background-color: orange;
 }
 
-
 .bg-red{
     background-color: red;
 }
@@ -23,23 +22,51 @@
 
 .bg-black{
     background-color: #000;
-}
+}   
 
 .bg-darkgrey{
     background-color: #363636;
 }
 
+.bg-button-red{
+    background-color:#cd3d0f;
+}
 
 .black{
     color:#000;
 }
 
+.light-blue{
+    color:#2788d6;
+}
 
+.light-grey{
+    color:#727272;
+}
+
+
+
+/* UTILITIES */
+
+.h-100{
+    height: 100%;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
 
 
 /* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
-main [class*="col"]{
-    background-color: black;  
+
+#ps5 [class*="col"],
+#takes-two [class*="col"],
+#new-releases [class*="col"],
+#explore-ps4 [class*="col"],
+#ps-plus [class*="col"], 
+#discounts [class*="col"], 
+#ps-now [class*="col"],
+#social-media [class*="col"]{ 
     height: 50px;
     border: 2px solid #fff;
 }
@@ -47,24 +74,17 @@ main [class*="col"]{
 
 /* HEADER */
 
-header{
-    height: 300px;
-    border-bottom: 2px solid #000;
-}
-
 .top-header{
     height: 25px;
 }
 
 .bottom-header{
-    height: 150px;
+    height: 75px;
 }
-
 
 .logo{
     height: 100%;
 } 
-
 
 .logo img{
     max-width: 50%;
@@ -76,8 +96,28 @@ main [class*="container"]{
 }
 
 /* MAIN */
-section{
+#ps5
+#takes-two
+#new-releases
+#explore-ps4
+#ps-plus 
+#discounts 
+#ps-now
+#social-media{
     height:400px;
+}
+
+
+#returnal{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.logo-returnal{
+    width: 50px;
+    height: 25px;
 }
 
 
