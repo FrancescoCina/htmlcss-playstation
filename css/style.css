@@ -8,6 +8,10 @@
     background-color: orange;
 }
 
+.bg-light-blue{
+    background-color: #2d64e6;
+}
+
 .bg-red{
     background-color: red;
 }
@@ -36,7 +40,7 @@
     color:#000;
 }
 
-.light-blue{
+.heavenly{
     color:#2788d6;
 }
 
@@ -44,7 +48,28 @@
     color:#727272;
 }
 
+.border-blue{
+    border: 1px solid #0e7ad1;
+}
 
+
+
+/* TEST COLONNE PS5 */
+
+.border-black{
+    border: 1px solid #000;
+}
+
+
+/* #ps5:nth-child(3) .row [class*="col"]{
+    height: 50px;
+} */
+
+
+
+
+
+/* -------------- */
 
 /* UTILITIES */
 
@@ -57,9 +82,14 @@
 }
 
 
+.pt-200{
+    padding-top: 200px;
+}
+
+/* ---------------------- */
+
 /* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
 
-#ps5 [class*="col"],
 #takes-two [class*="col"],
 #new-releases [class*="col"],
 #explore-ps4 [class*="col"],
@@ -96,15 +126,15 @@ main [class*="container"]{
 }
 
 /* MAIN */
-#ps5
-#takes-two
-#new-releases
-#explore-ps4
-#ps-plus 
-#discounts 
-#ps-now
+
+#takes-two,
+#new-releases,
+#explore-ps4,
+#ps-plus,    
+#discounts, 
+#ps-now,
 #social-media{
-    height:400px;
+    height:800px;
 }
 
 
@@ -125,3 +155,35 @@ main [class*="container"]{
 footer{
     height: 200px;
 }
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    .pt-md-170{
+        padding-top:170px;
+    }
+}
+
+
+@media screen and (min-width:992px){
+    .pt-lg-170{
+        padding-top:170px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .pt-xl-200{
+        padding-top:200px;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .pt-xxl-250{
+        padding-top:250px;
+    }
+}
+
+
