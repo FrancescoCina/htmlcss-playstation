@@ -52,23 +52,6 @@
     border: 1px solid #0e7ad1;
 }
 
-
-
-/* TEST COLONNE PS5 */
-
-.border-black{
-    border: 1px solid #000;
-}
-
-
-/* #ps5:nth-child(3) .row [class*="col"]{
-    height: 50px;
-} */
-
-
-
-
-
 /* -------------- */
 
 /* UTILITIES */
@@ -86,11 +69,11 @@
     padding-top: 200px;
 }
 
+
 /* ---------------------- */
 
 /* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
 
-#takes-two [class*="col"],
 #new-releases [class*="col"],
 #explore-ps4 [class*="col"],
 #ps-plus [class*="col"], 
@@ -127,7 +110,6 @@ main [class*="container"]{
 
 /* MAIN */
 
-#takes-two,
 #new-releases,
 #explore-ps4,
 #ps-plus,    
@@ -137,7 +119,7 @@ main [class*="container"]{
     height:800px;
 }
 
-
+/* SEZIONE RETURNAL */
 #returnal{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -151,6 +133,33 @@ main [class*="container"]{
 }
 
 
+.logo-takes-two{
+    width: 50px;
+    height: 25px;
+}
+
+/* --------------- */
+
+/* SEZIONE IT-TAKES-TWO */
+
+#takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------- */
+
+/* RESIZING PER IL LOGO DEL BAKCGROUND */
+
+.resize-img {
+    max-width: 40%;
+    height: auto;
+}
+
+/* ------------------- */
+
 /* FOOTER */
 footer{
     height: 200px;
@@ -158,12 +167,25 @@ footer{
 
 
 
+/* MEDIA QUERY */
+
+
+@media screen and (min-width: 576px){
+    .resize-sm-img {
+        max-width: 50%;
+        height: auto;
+    }
+}
 
 
 
 @media screen and (min-width:768px){
     .pt-md-170{
         padding-top:170px;
+    }
+    .resize-md-img {
+        max-width: 60%;
+        height: auto;
     }
 }
 
@@ -172,6 +194,10 @@ footer{
     .pt-lg-170{
         padding-top:170px;
     }
+    .img-lg-fluid{
+        max-width: 100%;
+        height: auto;
+    }   
 }
 
 @media screen and (min-width:1200px){
