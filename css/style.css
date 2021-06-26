@@ -36,6 +36,18 @@
     background-color:#cd3d0f;
 }
 
+.bg-light-grey{
+    background-color: #bebcbb;
+}
+
+.bg-dirty-white{
+    background-color: #d9dadc;
+}
+
+.light-blue{
+    color: #2d64e6;
+}
+
 .black{
     color:#000;
 }
@@ -74,7 +86,6 @@
 
 /* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
 
-#ps-plus [class*="col"], 
 #discounts [class*="col"], 
 #ps-now [class*="col"],
 #social-media [class*="col"]{ 
@@ -108,7 +119,6 @@ main [class*="container"]{
 
 /* MAIN */
 
-#ps-plus,    
 #discounts, 
 #ps-now,
 #social-media{
@@ -154,6 +164,13 @@ main [class*="container"]{
 /* SEZIONE ESPLORA PS4 */
 /* ------------------- */
 
+
+/* SEZIONE PS PLUS */
+.logo-psplus{
+    width: 200px;
+    height: 50px;
+}
+/* ---------------- */
 
 
 /* FOOTER */
