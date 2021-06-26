@@ -74,8 +74,6 @@
 
 /* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
 
-#new-releases [class*="col"],
-#explore-ps4 [class*="col"],
 #ps-plus [class*="col"], 
 #discounts [class*="col"], 
 #ps-now [class*="col"],
@@ -110,8 +108,6 @@ main [class*="container"]{
 
 /* MAIN */
 
-#new-releases,
-#explore-ps4,
 #ps-plus,    
 #discounts, 
 #ps-now,
@@ -127,17 +123,6 @@ main [class*="container"]{
     background-repeat:no-repeat;
 }
 
-.logo-returnal{
-    width: 50px;
-    height: 25px;
-}
-
-
-.logo-takes-two{
-    width: 50px;
-    height: 25px;
-}
-
 /* --------------- */
 
 /* SEZIONE IT-TAKES-TWO */
@@ -149,9 +134,7 @@ main [class*="container"]{
     background-repeat: no-repeat;
 }
 
-/* ---------------- */
-
-/* RESIZING PER IL LOGO DEL BAKCGROUND */
+/* Resizing per il logo del background */
 
 .resize-img {
     max-width: 40%;
@@ -159,6 +142,19 @@ main [class*="container"]{
 }
 
 /* ------------------- */
+
+/* SEZIONE NUOVI ARRIVI */
+
+#new-releases{
+    background-color: #1f1f1f;
+}
+
+/* -------------- */
+
+/* SEZIONE ESPLORA PS4 */
+/* ------------------- */
+
+
 
 /* FOOTER */
 footer{
