@@ -1,5 +1,7 @@
 /* COLORS */
 
+/* Background Colors */
+
 .bg-blue{
     background-color: blue;
 }
@@ -48,6 +50,13 @@
     background-color: #161c3b;
 }
 
+.bg-footer{
+    background-color:#00439c;
+}
+
+/* ----------------- */
+
+/* Text Colors */
 .light-blue{
     color: #2d64e6;
 }
@@ -67,6 +76,10 @@
 .light-grey{
     color:#727272;
 }
+
+/* ---------------- */
+
+/* Border Color */
 
 .border-blue{
     border: 1px solid #0e7ad1;
@@ -92,14 +105,6 @@
 
 /* ---------------------- */
 
-/* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
-
-#social-media [class*="col"]{ 
-    height: 50px;
-    border: 2px solid #fff;
-}
-/* ------------------ */
-
 /* HEADER */
 
 .top-header{
@@ -124,10 +129,6 @@ main [class*="container"]{
 }
 
 /* MAIN */
-
-#social-media{
-    height:800px;
-}
 
 /* SEZIONE RETURNAL */
 #returnal{
@@ -179,7 +180,7 @@ main [class*="container"]{
 
 /* FOOTER */
 footer{
-    height: 200px;
+    height: 500px;
 }
 
 
