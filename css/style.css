@@ -179,11 +179,12 @@ main [class*="container"]{
 
 
 /* FOOTER */
-footer{
-    height: 500px;
+
+
+.logo-sie{
+    width: 100px;
+    height: 50px;
 }
-
-
 
 /* MEDIA QUERY */
 
