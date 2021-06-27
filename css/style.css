@@ -44,12 +44,20 @@
     background-color: #d9dadc;
 }
 
+.bg-dark-blue{
+    background-color: #161c3b;
+}
+
 .light-blue{
     color: #2d64e6;
 }
 
 .black{
     color:#000;
+}
+
+.dark-blue{
+    color:#161c3b;
 }
 
 .heavenly{
@@ -86,8 +94,6 @@
 
 /* BACKGROUND COL PER IDENTIFICARE IN STRUTTURA */
 
-#discounts [class*="col"], 
-#ps-now [class*="col"],
 #social-media [class*="col"]{ 
     height: 50px;
     border: 2px solid #fff;
@@ -119,8 +125,6 @@ main [class*="container"]{
 
 /* MAIN */
 
-#discounts, 
-#ps-now,
 #social-media{
     height:800px;
 }
