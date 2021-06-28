@@ -97,6 +97,10 @@
     padding-top: 200px;
 }
 
+.active{
+    border-bottom: 2px solid blue;
+    opacity: 1.0;
+}
 
 /* ---------------------- */
 
@@ -119,9 +123,9 @@
     max-height: 50%;
 }
 
-main [class*="container"]{
+/* main [class*="container"]{
     height: 100%;
-}
+} */
 
 /* MAIN */
 
@@ -135,6 +139,22 @@ main [class*="container"]{
 
 /* --------------- */
 
+/* SEZIONE PS5 */
+
+#ps5 .container .row-cols-3 .col img{
+    opacity: 0.5;
+}
+
+.opacity-1{
+    opacity: 1.0;
+}
+
+#ps5 .container .row-cols-3 .col:hover img{
+    opacity: 1.0;
+}
+
+/* ------------ */
+
 /* SEZIONE IT-TAKES-TWO */
 
 #takes-two{
@@ -143,7 +163,7 @@ main [class*="container"]{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/* -------------- */
 /* Resizing per il logo del background */
 
 .resize-img {
