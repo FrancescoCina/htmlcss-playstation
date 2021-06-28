@@ -112,8 +112,14 @@
     border: 1px solid #fff;
 }
 
+#ps-plus .bg-dirty-white:hover{
+    box-shadow: 0 0 0 2px rgba(217, 218, 220, 0.5);
+}   
 
-
+#ps-now .bg-dirty-white:hover{
+    box-shadow: 0 0 0 2px #d9dadc;
+    border: 1px solid #161c3b;
+}
 
 /* ----------- */
 
@@ -195,6 +201,13 @@
 #cards .container .row [class*="col-"]:hover{
     transform: translateY(-10px);
 }
+
+#cards .container .row [class*="col-"]{
+    transition: transform 0.5s;
+}
+
+
+
 /* ------------- */
 
 
@@ -204,12 +217,12 @@
     opacity: 0.5;
 }
 
-.opacity-1{
+#ps5 .container .row-cols-3 .col:hover img{
     opacity: 1.0;
 }
 
-#ps5 .container .row-cols-3 .col:hover img{
-    opacity: 1.0;
+#ps5 .container .row-cols-3 .col .active{
+    opacity: 0;
 }
 
 /* ------------ */
@@ -231,7 +244,7 @@
 }
 
 /* ------------------- */
-
+    
 /* SEZIONE NUOVI ARRIVI */
 
 #new-releases{
@@ -241,6 +254,11 @@
 /* -------------- */
 
 /* SEZIONE ESPLORA PS4 */
+
+#explore-ps4 p{
+    margin-bottom: 0;
+}
+
 /* ------------------- */
 
 
@@ -250,6 +268,14 @@
     height: 50px;
 }
 /* ---------------- */
+
+
+/* SEZIONE PS NOW */
+#ps-now a:hover{
+    color:#161c3b;
+}
+/* -------------- */
+
 
 
 /* FOOTER */
