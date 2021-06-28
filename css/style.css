@@ -221,11 +221,11 @@
     opacity: 1.0;
 }
 
-#ps5 .container .row-cols-3 .col .active{
-    opacity: 0;
+#ps5 .container .row-cols-3 .active img{
+    opacity: 1;
 }
 
-/* ------------ */
+/* ------------ */  
 
 /* SEZIONE IT-TAKES-TWO */
 
@@ -244,7 +244,7 @@
 }
 
 /* ------------------- */
-    
+
 /* SEZIONE NUOVI ARRIVI */
 
 #new-releases{
@@ -306,6 +306,12 @@
         max-width: 60%;
         height: auto;
     }
+
+    #ps5 .image-md-sizing{
+        width: 60px;
+        height: 60px;
+    }
+
 }
 
 
@@ -317,7 +323,13 @@
         max-width: 100%;
         height: auto;
     }   
+    #ps5 .image-md-sizing{
+        width: 80px;
+        height: 80px;
+    }
 }
+
+
 
 @media screen and (min-width:1200px){
     .pt-xl-200{
