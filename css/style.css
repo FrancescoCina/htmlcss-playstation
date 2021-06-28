@@ -107,14 +107,15 @@
     border: 1px solid #fff;
 }
 
-/* ----------- */
-
-#cards .container .row [class*="col-"]:hover{
-    transform: translateY(-10px);
+.bg-darkgrey:hover{
+    box-shadow: 0 0 0 2px #363636;
+    border: 1px solid #fff;
 }
 
 
 
+
+/* ----------- */
 
 /* UTILITIES */
 
@@ -152,9 +153,28 @@
     max-height: 50%;
 }
 
-/* main [class*="container"]{
-    height: 100%;
-} */
+[class*="chevron"]{
+    cursor: pointer;
+}
+
+/* EFFETTI HOVER NAVBAR */
+.navbar-light .navbar-nav .black{
+    color: rgb(0,0,0);
+}
+
+.navbar-light .navbar-nav .black:hover{
+    color: blue;
+}
+
+.navbar-light .navbar-nav .black:hover .chevron{
+    display: none;
+}
+
+.navbar-light .navbar-nav .black:hover .chevron-hover{
+    display: block;
+}
+
+/* -------------- */
 
 /* MAIN */
 
@@ -167,6 +187,16 @@
 }
 
 /* --------------- */
+
+
+/* SEZIONE CARDS */
+/* Effetti hover card */
+
+#cards .container .row [class*="col-"]:hover{
+    transform: translateY(-10px);
+}
+/* ------------- */
+
 
 /* SEZIONE PS5 */
 
