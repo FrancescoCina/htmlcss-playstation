@@ -138,6 +138,12 @@
     opacity: 1.0;
 }
 
+.layover{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
 /* ---------------------- */
 
 /* HEADER */
@@ -172,11 +178,11 @@
     color: blue;
 }
 
-.navbar-light .navbar-nav .black:hover .chevron{
+.navbar-light .navbar-nav a:hover .chevron{
     display: none;
 }
 
-.navbar-light .navbar-nav .black:hover .chevron-hover{
+.navbar-light .navbar-nav a:hover .chevron-hover{
     display: block;
 }
 
@@ -184,12 +190,20 @@
 
 /* MAIN */
 
-/* SEZIONE RETURNAL */
-#returnal{
-    background-image: url(../img/jumbo-bg.png);
+
+/* background img dei Jumbo */
+
+.jumbotron{
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
+}
+/* ------------------- */
+
+
+/* SEZIONE RETURNAL */
+#returnal{
+    background-image: url(../img/jumbo-bg.png);
 }
 
 /* --------------- */
@@ -205,8 +219,6 @@
 #cards .container .row [class*="col-"]{
     transition: transform 0.5s;
 }
-
-
 
 /* ------------- */
 
@@ -231,9 +243,6 @@
 
 #takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 /* -------------- */
 /* Resizing per il logo del background */
@@ -299,9 +308,7 @@
 
 
 @media screen and (min-width:768px){
-    .pt-md-170{
-        padding-top:170px;
-    }
+   
     .resize-md-img {
         max-width: 60%;
         height: auto;
@@ -316,9 +323,7 @@
 
 
 @media screen and (min-width:992px){
-    .pt-lg-170{
-        padding-top:170px;
-    }
+    
     .img-lg-fluid{
         max-width: 100%;
         height: auto;
@@ -327,20 +332,18 @@
         width: 80px;
         height: 80px;
     }
+    .layover{
+        background-color: rgba(0, 0, 0, 0);
+      
+    }
 }
 
-
-
 @media screen and (min-width:1200px){
-    .pt-xl-200{
-        padding-top:200px;
-    }
+    
 }
 
 @media screen and (min-width:1400px){
-    .pt-xxl-250{
-        padding-top:250px;
-    }
+  
 }
 
 
